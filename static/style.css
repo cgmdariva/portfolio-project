@@ -16,7 +16,7 @@ html, body{
     width: 300px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
-    z-index: 9999;
+    z-index: 9997;
 }
 
 #header .profile img{
@@ -25,4 +25,22 @@ html, body{
     width: 120px;
     border: 8px solid #2c2f3f;
     border-radius: 50%;
+}
+
+#header .profile h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+}
+
+#header .profile .social-links a {
+    font-size: 1.2rem;
+    color: aliceblue;
+    padding: 1rem;
+    margin: auto;
+    transition: 0.3s;
+    text-decoration: none;
 }
