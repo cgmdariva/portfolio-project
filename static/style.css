@@ -172,3 +172,7 @@ i.menu-mobile {
 *::-webkit-scrollbar-thumb {
   background-color: #088012;
 }
+
+.section-bg {
+  background-color: #ceedd0;
+}
